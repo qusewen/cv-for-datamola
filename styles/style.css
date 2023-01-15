@@ -15,6 +15,9 @@
     font-family: 'Rajdhani', sans-serif;
 
 }
+ul{
+    list-style: none;
+}
 .container{
     margin: 0 auto;
     max-width: 1200px;
@@ -49,14 +52,19 @@
 .header__photo{
     margin-right: 100px;
 }
-.article{
+.article,
+.skills,
+.experience{
     background: var(--bg-color-2);
     padding: 10px 20px;
 }
-.article__summary_title{
+.article__summary_title,
+.skills__title,
+.experience__title{
     color: var(--text-color-1);
     text-align: center;
     font-size: 3em;
+    margin-bottom: 20px;
 }
 .article__summary_subtitle,
 .article__summary_subtitle-pre{
@@ -73,4 +81,46 @@
 }
 .article__info-btn:hover{
     color:var(--text-hover-1) ;
+}
+.skills__title{
+    margin-bottom: 30px;
+}
+.skill__list{
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: var(--text-color-2);
+    display: flex;
+    align-items: center;
+}
+.skill__list:last-child{
+    margin-bottom: 0;
+}
+.skills__element{
+    display: grid;
+    justify-items: start;
+    justify-content: center;
+}
+.skill__list_img{
+    width: 20px;
+    margin-right: 20px;
+}
+.experience__second_title{
+    font-size: 1.5em;
+    color: var(--text-color-2);
+    margin-bottom: 10px;
+}
+.experience__subtitle{
+    font-size: 1.3em;
+    color: var(--text-color-2);
+}
+
+.experience__element{
+    margin-bottom: 20px;
+}
+.experience__element:last-child{
+    margin-bottom: 0;
+}
+.arrow-left,
+.arrow-right{
+    width: 70px;
 }
