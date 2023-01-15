@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    -bg-color-1: radial-gradient(100% 100% at 0% 100%, #5096F1 0%, #202020 100%);
+    -text-color-1: #5096F1;
+    -text-color-2: #FFFFFF;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
