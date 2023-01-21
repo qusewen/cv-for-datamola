@@ -15,45 +15,7 @@
     font-family: 'Rajdhani', sans-serif;
     scroll-behavior: smooth;
 }
-ul{
-    list-style: none;
-}
-.container{
-    margin: 0 auto;
-    max-width: 1200px;
-}
-.header{
-    padding: 15px 30px 40px; 
-    background: var(--bg-color-1);
-    border-bottom: 2px solid var(--bg-color-4);
-    position: relative;
-}
-.header__body{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly
-    
-}
-.header__photo_img{
-    width: 300px;
-    border-radius: 50%;
-    border: 2px solid #5096F1;
-}
-.header__info_title{
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 48px;
-    color: var(--text-color-2);
-}
-.header__info_subtitle{
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 24px;
-    color: var(--text-color-2);
-}
-.header__photo{
-    margin-right: 100px;
-}
+
 .burger-item{
     width: 50px;
     height: 3px;
@@ -128,11 +90,6 @@ ul{
     padding: 30px 10px 10px 50px;
     display: none;
 }
-.header__link{
-    text-decoration: none;
-    color: var(--text-color-3);
-    font-size: 30px;
-}
 .burger__content_item{
     display: flex;
     align-items: center;
@@ -142,137 +99,4 @@ ul{
 }
 .burger__content_item:last-child{
     margin-bottom: 0;
-}
-.article,
-.skills,
-.experience,
-.project,
-.education,
-.footer{
-    background: var(--bg-color-2);
-    padding: 10px 20px;
-}
-.article__summary_title,
-.skills__title,
-.experience__title,
-.project__title,
-.education__title{
-    color: var(--text-color-1);
-    text-align: center;
-    font-size: 3em;
-    margin-bottom: 20px;
-}
-.article__summary_subtitle,
-.article__summary_subtitle-pre,
-.education__subtitle{
-    color: var(--text-color-2);
-    font-size: 1em;
-}
-.article__summary_subtitle-pre{
-    display: none;
-}
-.article__info-btn{
-    text-decoration: none;
-    color: var(--text-color-3);
-    transition: 0.2s linear;
-}
-.article__info-btn:hover{
-    color:var(--text-hover-1) ;
-}
-.skills__title{
-    margin-bottom: 30px;
-}
-.skill__list{
-    font-size: 1em;
-    margin-bottom: 10px;
-    color: var(--text-color-2);
-    display: flex;
-    align-items: center;
-}
-.skill__list:last-child{
-    margin-bottom: 0;
-}
-.skills__element{
-    display: grid;
-    justify-items: start;
-    justify-content: center;
-}
-.skill__list_img{
-    width: 20px;
-    margin-right: 20px;
-}
-.experience__second_title{
-    font-size: 1.5em;
-    color: var(--text-color-2);
-    margin-bottom: 10px;
-}
-.experience__subtitle{
-    font-size: 1.3em;
-    color: var(--text-color-2);
-}
-
-.experience__element{
-    margin-bottom: 20px;
-}
-.experience__element:last-child{
-    margin-bottom: 0;
-}
-.arrow-left,
-.arrow-right{
-    width: 70px;
-    cursor: pointer;
-}
-.slider__item-title{
-    font-size: 1.5em;
-    color: var(--text-color-2);
-    margin-bottom: 10px;
-}
-.slide__item-link{
-    max-width: 100%;
-}
-.slider__item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 40px;
-}
-.slider__item:last-child{
-    margin-bottom: 0;
-}
-
-.project__slider{
-    display: flex;
-    align-items: center;
-    
-}
-
-.education__item{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 60%;
-    margin-bottom: 10px;
-}
-.education__item:last-child{
-    margin-bottom: 0;
-}
-.education__subtitle{
-    font-size: 1.3em;
-}
-
-.skills__body{
-    display: flex;
-    justify-content: space-evenly;
-}
-.footer{
-    border-top: 2px solid var(--bg-color-4);
-}
-.footer__body_link{
-    text-decoration: none;
-    color: var(--text-color-2);
-    font-size: 2em;
-    transition: 0.3s linear;
-}
-.footer__body_link:hover{
-    color: var(--text-hover-1);
 }
